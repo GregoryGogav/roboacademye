@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ROBOACADEMY</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+}
+
+/* Navigation */
+
+header{
+    background:#1a1a2e;
+    padding:20px;
+}
+
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#00d2ff;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:white;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+    height:50vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#111827;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+/* GALLERY */
+
+.gallery{
+    padding:40px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content h3{
+    color:#00d2ff;
+}
+
+/* FOOTER */
+
+footer{
+    background:#1a1a2e;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="nav-container">
+
+<div class="logo">
+ROBO<span>ACADEMY</span>
+</div>
+
+<nav>
+<ul>
+<li><a href="#">Начало</a></li>
+<li><a href="#">За клуба</a></li>
+<li><a href="#">Събития</a></li>
+<li><a href="#">Галерия</a></li>
+<li><a href="#">Контакти</a></li>
+</ul>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div>
+<h1>Robot Gallery</h1>
+<p>Нашите роботи и проекти</p>
+</div>
+
+</section>
+
+<section class="gallery">
+
+<div class="gallery-grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a">
+
+<div class="card-content">
+<h3>AI Robot</h3>
+<p>Робот с изкуствен интелект.</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e">
+
+<div class="card-content">
+<h3>Arduino Robot</h3>
+<p>Arduino проект.</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1527430253228-e93688616381">
+
+<div class="card-content">
+<h3>STEM Project</h3>
+<p>Модерен STEM робот.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>&copy; 2026 ROBOACADEMY</p>
+</footer>
+
+</body>
+</html>
